@@ -1,0 +1,20 @@
+{
+  "homepage": "https://meetfranz.com/",
+  "description":
+    "Franz is your messaging app / former Emperor of Austria and combines chat & messaging services into one application",
+  "version": "5.0.0-beta18",
+  "url":
+    "https://github.com/meetfranz/franz/releases/download/v5.0.0-beta.18/franz-setup-5.0.0-beta.18.exe",
+  "bin": "./Franz.exe",
+  "license": "Apache 2.0",
+  "hash": "bb975d60c923cf42b900adf7fcf5c79e6bd937759ab3717ad988c0a9c16bfc7a",
+  "checkerver": {
+    "github": "https://github.com/meetfranz/franz"
+  },
+  "installer":
+    "https://github.com/meetfranz/franz/releases/download/v5.0.0-beta.18/franz-setup-5.0.0-beta.18.exe",
+  "post_install": [
+    "Write-Host 'recipe-backlog: https://github.com/nulab/franz-recipe-backlog' -ForegroundColor Magenta",
+    "Write-Host 'official recipes: https://github.com/meetfranz/plugins' -ForegroundColor Magenta"
+  ]
+}

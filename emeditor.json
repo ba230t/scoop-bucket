@@ -1,0 +1,18 @@
+{
+    "homepage": "https://jp.emeditor.com/",
+    "url": "http://files.emeditor.com/emed64_18.4.0_portable.zip",
+    "version": "18.4.0",
+    "checkver": {
+        "url": "https://jp.emeditor.com/download/",
+        "re": "http://files.emeditor.com/emed64_([\\d.]+.[\\d.]+.[\\d.]+)_portable.zip"
+    },
+    "hash": "f4c82c60cfa065b8061140e9876e00c2ac3bc7a2c720b1143f7106f6e6345afa",
+    "persist": [
+        "Macros",
+        "AppData"
+    ],
+    "bin": "EmEditor.exe",
+    "shortcuts": [
+        ["EmEditor.exe", "EmEditor"]
+    ]
+}

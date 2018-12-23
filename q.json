@@ -1,0 +1,11 @@
+{
+    "homepage": "https://github.com/harelba/q",
+    "version": "1.7.1",
+    "url": "https://github.com/harelba/q/releases/download/1.7.1/setup-q-1.7.1.exe#/dl.7z",
+    "hash": "56a45985a57dde4ecc706f4ba209425f7d9fc86490a3e09135459dfaededb260",
+    "bin": "q.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/harelba/q/releases/download/$version/setup-q-$version.exe"
+    }
+}
