@@ -1,0 +1,46 @@
+﻿{
+    "version":  "0.5.2",
+    "homepage":  "https://www.cube-soft.jp/cubepdfutility",
+    "architecture": {
+        "64bit": {
+            "url":  "https://www.cube-soft.jp/archive/cubepdf-utility-0.5.2b-x64.exe",
+            "hash":  "0ae1e262311d6cc7237ed154f5daa757422873bdfdd71d68be1d3411e17b9a18"
+        },
+        "32bit": {
+            "url":  "https://www.cube-soft.jp/archive/cubepdf-utility-0.5.2b.exe",
+            "hash":  "1f4f54a663c320361702cafe08efbf13ed4d5f11aa761d8e50abd424be9788be"
+        }
+    },
+    "installer": {
+        "args": [
+            "/Silent",
+            "/Lang=ja",
+            "/Dir=\"$dir\"",
+            "/NoIcons=0",
+            "/Tasks="
+        ]
+    },
+    "shortcuts": [
+        ["CubePdfUtilitySplash.exe", "CubePDF Utility"]
+    ],
+    "uninstaller": {
+        "file": "unins000.exe",
+        "args": [
+            "/Silent"
+        ]
+    },
+    "checkver": {
+        "url": "https://www.cube-soft.jp/cubepdfutility",
+        "re": "CubePDF Utility ([\\d.]+)β"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.cube-soft.jp/archive/cubepdf-utility-$versionb-x64.exe"
+            },
+            "32bit": {
+                "url": "https://www.cube-soft.jp/archive/cubepdf-utility-$versionb.exe"
+            }
+        }
+    }
+}
