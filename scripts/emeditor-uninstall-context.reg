@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell]
+@="openas"
+[-HKEY_CLASSES_ROOT\*\shell\Edit]
+[-HKEY_CLASSES_ROOT\*\shell\EmEditorÇ≈äJÇ≠]
+[HKEY_CLASSES_ROOT\Unknown\shell]
+@="openas"
+[-HKEY_CLASSES_ROOT\Unknown\shell\Edit]
+[-HKEY_CLASSES_ROOT\Directory\shell\EmEditorÇ≈åüçı]
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\EmEditorÇ≈åüçı]
+
