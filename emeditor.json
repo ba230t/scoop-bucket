@@ -1,18 +1,46 @@
 {
     "homepage": "https://jp.emeditor.com/",
-    "url": "http://files.emeditor.com/emed64_18.4.0_portable.zip",
+    "url": [
+        "http://files.emeditor.com/emed64_18.4.0_portable.zip",
+        "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/emeditor-install-context.reg",
+        "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/emeditor-uninstall-context.reg"
+    ],
     "version": "18.4.0",
     "checkver": {
         "url": "https://jp.emeditor.com/download/",
         "re": "http://files.emeditor.com/emed64_([\\d.]+.[\\d.]+.[\\d.]+)_portable.zip"
     },
-    "hash": "f4c82c60cfa065b8061140e9876e00c2ac3bc7a2c720b1143f7106f6e6345afa",
+    "hash": [
+        "f4c82c60cfa065b8061140e9876e00c2ac3bc7a2c720b1143f7106f6e6345afa",
+        "a3892f94b164d4ecc6bfcf136685d5cf70d067d9d16ee54211f1067ab5b8c3c8",
+        "17cfbc493dfe7fe75db28fa0c077fe21768ae5e711db8ed8d796f7c1f0694b01"
+    ],
     "persist": [
         "Macros",
-        "AppData"
+        "AppData",
+        "eeCommon.ini",
+        "eeConfig.ini",
+        "eePlugins.ini",
+        "eeLM.ini"
     ],
     "bin": "EmEditor.exe",
     "shortcuts": [
         ["EmEditor.exe", "EmEditor"]
-    ]
+    ],
+    "pre_install": [
+        "if(!(test-path \"$dir\\eeUseIni.ini\"))  { Add-Content \"$dir\\eeUseIni.ini\" \"\" }",
+        "if(!(test-path \"$dir\\eeCommon.ini\"))  { Add-Content \"$dir\\eeCommon.ini\" \"\" }",
+        "if(!(test-path \"$dir\\eeConfig.ini\"))  { Add-Content \"$dir\\eeConfig.ini\" \"\" }",
+        "if(!(test-path \"$dir\\eePlugins.ini\")) { Add-Content \"$dir\\eePlugins.ini\" \"\" }",
+        "if(!(test-path \"$dir\\eeLM.ini\"))      { Add-Content \"$dir\\eeLM.ini\" \"\" }"
+    ],
+    "post_install": [
+        "if(Test-Path(\"$dir\\emeditor-install-context.reg\")) {",
+        "  $empath = \"$dir\\EmEditor.exe\".Replace('\\', '\\\\')",
+        "  $content = Get-Content \"$dir\\emeditor-install-context.reg\"",
+        "  $content = $content.Replace('$em', $empath)",
+        "  $content | Set-Content -Path \"$dir\\emeditor-install-context.reg\"",
+        "}"
+    ],
+    "notes": "Add EmEditor as a context menu option by running: \"$dir\\emeditor-install-context.reg\""
 }
