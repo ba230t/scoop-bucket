@@ -31,7 +31,7 @@
     },
     "checkver": {
         "url": "https://www.cube-soft.jp/cubepdfutility",
-        "re": "CubePDF Utility ([\\d.]+)β"
+        "re": "CubePDF Utility ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
