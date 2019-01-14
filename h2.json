@@ -1,12 +1,15 @@
 {
     "home": "http://www.h2database.com",
-    "version": "2017-06-10",
+    "version": "2018-03-18",
+    "url": "http://www.h2database.com/h2-2018-03-18.zip",
+    "hash": "a45e7824b4f54f5d9d65fb89f22e1e75ecadb15ea4dcf8c5d432b80af59ea759",
     "checkver": {
         "url": "http://www.h2database.com/html/main.html",
         "re": "Version [\\d.]+ \\(([\\d-]+)\\)"
     },
-    "url": "http://www.h2database.com/h2-2017-06-10.zip",
-    "hash": "sha1:6d750da6c79ebb7688117a761c646716e9f8cbc4",
+    "autoupdate": {
+        "url": "http://www.h2database.com/h2-$version.zip"
+    },
     "extract_dir": "h2",
     "shortcuts": [
         [
@@ -20,10 +23,9 @@
     ],
     "suggest": {
         "JDK": [
-            "openjdk",
-            "extras/oraclejdk",
-            "extras/oraclejre",
-            "extras/oraclejre-server"
+            "java/corretto",
+            "java/openjdk",
+            "java/oraclejdk"
         ]
     }
 }
