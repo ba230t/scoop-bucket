@@ -6,6 +6,6 @@
     "bin": "q.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/harelba/q/releases/download/$version/setup-q-$version.exe"
+        "url": "https://github.com/harelba/q/releases/download/$version/setup-q-$version.exe#/dl.7z"
     }
 }
