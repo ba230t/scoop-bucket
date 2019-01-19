@@ -1,0 +1,33 @@
+{
+    "homepage": "https://portableapps.com/",
+    "description": "PortableApps.com is the world's most popular portable software solution allowing you to take your favorite software with you.",
+    "url": [
+        "https://portableapps.com/redirect/?a=PortableApps.comPlatform&s=s&d=pa&f=PortableApps.com_Platform_Setup_16.0.paf.exe#/dl.7z"
+    ],
+    "version": "16.0",
+    "checkver": {
+        "url": "https://portableapps.com/download",
+        "re": "<p class=\"download-info\">Version (\\d+\\.\\d) for Windows"
+    },
+    "autoupdate": {
+        "url": "https://portableapps.com/redirect/?a=PortableApps.comPlatform&s=s&d=pa&f=PortableApps.com_Platform_Setup_$version.paf.exe#/dl.7z"
+    },
+    "hash": [
+        "3877dada17ce891109e467e7dda4f80b06020e0397881d9f0f0156f9ab42e86d"
+    ],
+    "persist": [
+        "Documents",
+        "PortableApps"
+    ],
+    "post_install": [
+        "$new_version = \"$dir\\PortableApps.original\\PortableApps.com\\\"",
+        "$app_dir = \"$dir\\PortableApps\"",
+        "if( Test-Path $new_version ) { Copy-Item $new_version $app_dir -Recurse -Force }"
+    ],
+    "shortcuts": [
+        [
+            "Start.exe",
+            "PortableApps.com"
+        ]
+    ]
+}
