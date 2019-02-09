@@ -1,0 +1,19 @@
+{
+    "homepage": "https://a5m2.mmatsubara.com/",
+    "discription": "‘‹‚Ì“m‚¾‚Æ‚È‚ñ‚©’x‚¢",
+    "version": "2.13.3",
+    "url": "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/void",
+    "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "pre_install": [
+        " Invoke-WebRequest -Uri http://ftp.vector.co.jp/70/76/2526/a5m2_2.13.3_x64.zip -OutFile $dir\\a5m2.zip ",
+        " Expand-Archive -Path $dir\\a5m2.zip -DestinationPath $dir "
+    ],
+    "bin": "A5M2.exe",
+    "persist": "Portable",
+    "shortcuts": [
+        [
+            "A5M2.exe",
+            "A5M2"
+        ]
+    ]
+}
