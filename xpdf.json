@@ -1,13 +1,13 @@
-﻿{
-    "version":  "4.00",
-    "license":  "",
-    "url":  "https://xpdfreader-dl.s3.amazonaws.com/xpdf-tools-win-4.00.zip",
-    "homepage":  "http://www.xpdfreader.com",
-    "hash":  "388f93f4304e638efe20da9896235a15d62fac3336b32545be4639e1239c66a0",
-    "extract_dir":  "xpdf-tools-win-4.00",
+{
+    "version": "4.01",
+    "license": "",
+    "url": "https://xpdfreader-dl.s3.amazonaws.com/xpdf-tools-win-4.01.zip",
+    "homepage": "http://www.xpdfreader.com",
+    "hash": "e5fe92db4a401f121e2455da721b2a4731e109d2b378262d62daa2a504d38681",
+    "extract_dir": "xpdf-tools-win-4.01",
     "architecture": {
         "64bit": {
-            "bin":  [
+            "bin": [
                 "bin64\\pdfdetach.exe",
                 "bin64\\pdffonts.exe",
                 "bin64\\pdfimages.exe",
@@ -20,7 +20,7 @@
             ]
         },
         "32bit": {
-            "bin":  [
+            "bin": [
                 "bin32\\pdfdetach.exe",
                 "bin32\\pdffonts.exe",
                 "bin32\\pdfimages.exe",
@@ -39,6 +39,6 @@
     },
     "autoupdate": {
         "url": "https://xpdfreader-dl.s3.amazonaws.com/xpdf-tools-win-$version.zip",
-        "extract_dir":  "xpdf-tools-win-$version"
+        "extract_dir": "xpdf-tools-win-$version"
     }
 }
