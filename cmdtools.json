@@ -13,13 +13,9 @@
         "Shortcut.CMD",
         "showexcel.bat"
     ],
-    "checkver": {
-        "url": "https://github.com/ba230t/cmdtools",
-        "re": "datetime=\"(\\d+)-(\\d+)-(\\d+)[\\S\\s]*?(?<sha>[0-9a-f]{40})\"",
-        "replace": "0.${1}.${2}.${3}"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ba230t/cmdtools/archive/$matchSha.zip",
-        "extract_dir": "cmdtools-$matchSha"
+        "url": "https://github.com/ba230t/cmdtools/archive/$version.zip",
+        "extract_dir": "cmdtools-$version"
     }
 }
