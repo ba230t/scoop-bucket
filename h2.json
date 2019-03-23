@@ -1,8 +1,8 @@
 {
     "home": "http://www.h2database.com",
-    "version": "2019-02-22",
-    "url": "http://www.h2database.com/h2-2019-02-22.zip",
-    "hash": "6b2ecae6372761a198d183ae2367695a2581f8796f2173782d927a2ea08b0868",
+    "version": "2019-03-13",
+    "url": "http://www.h2database.com/h2-2019-03-13.zip",
+    "hash": "cf2f70bd20cc6749c52c86194b880c862d322dd307facce025356ce825c746f7",
     "checkver": {
         "url": "http://www.h2database.com/html/main.html",
         "re": "Version [\\d.]+ \\(([\\d-]+)\\)"
