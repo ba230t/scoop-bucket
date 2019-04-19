@@ -1,6 +1,7 @@
-# https://qiita.com/rkbk60/items/c55223c26a42776f7101
 # globalのuser.nameとBucket所有者名が一致するものを自動更新
 # * リモート名は"origin"のみ対応
+# * sshを使うようになっていないもの(=初期状態)はスルーするので
+#   事前に該当リポジトリ内で"git remote set-url"を実行する必要あり
 # * 自動でcommitおよびpushをするので注意
 
 $my_name = git config --global user.name
@@ -21,9 +22,9 @@ foreach ($bucket in $my_buckets) {
     if (Test-Path .\bin\checkver.ps1) {
         Write-Host "Check Bucket: $_" -ForegroundColor Green
         Get-ChildItem .\*.json | ForEach-Object {
-            $json = $_.Name
+            $json = $_.Basename
             .\bin\checkver.ps1 $json -u
-            if ($(git diff $json)) {
+            if ($(git diff $_)) {
                 Write-Host "  => Update: $json" -ForegroundColor Blue
                 git commit -a -m "Update: $json"
             }
