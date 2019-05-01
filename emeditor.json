@@ -1,11 +1,11 @@
 {
     "homepage": "https://jp.emeditor.com/",
     "url": [
-        "http://files.emeditor.com/emed64_18.7.2_portable.zip",
+        "http://files.emeditor.com/emed64_18.8.0_portable.zip",
         "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/emeditor-install-context.reg",
         "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/emeditor-uninstall-context.reg"
     ],
-    "version": "18.7.2",
+    "version": "18.8.0",
     "checkver": {
         "url": "https://jp.emeditor.com/download/",
         "re": "http://files.emeditor.com/emed64_([\\d.]+.[\\d.]+.[\\d.]+)_portable.zip"
@@ -14,7 +14,7 @@
         "url": "http://files.emeditor.com/emed64_$version_portable.zip"
     },
     "hash": [
-        "078c4a7488441fcc6e594fa54d2a5fb7768d67de55ba100daf6dbf5df4fb6a14",
+        "43aa0e7318ba1c2ad4a0c9f6b9b675c6c539e9682d45347bf44351e69495305f",
         "a3892f94b164d4ecc6bfcf136685d5cf70d067d9d16ee54211f1067ab5b8c3c8",
         "17cfbc493dfe7fe75db28fa0c077fe21768ae5e711db8ed8d796f7c1f0694b01"
     ],
