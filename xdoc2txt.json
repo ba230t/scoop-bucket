@@ -1,8 +1,8 @@
 {
     "homepage": "http://ebstudio.info/home/xdoc2txt.html",
-    "url": "http://ebstudio.info/download/KWICFinder/xd2tx218.zip",
-    "hash": "9206fb951e807bb406974354f6468839f5b0520b7d894c18e40f37d9466c9d76",
-    "version": "2.18",
+    "url": "http://ebstudio.info/download/KWICFinder/xd2tx219.zip",
+    "hash": "20e1d211f6db34dcd05109b36d19d269e5f3c4aa6128627414da5706bc4718b6",
+    "version": "2.19",
     "checkver": {
         "url": "http://ebstudio.info/home/xdoc2txt.html",
         "re": "/download/KWICFinder/.*xdoc2txt ([\\d.]+)"
