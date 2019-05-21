@@ -1,11 +1,11 @@
 {
     "homepage": "https://a5m2.mmatsubara.com/",
     "discription": "",
-    "version": "2.14.0",
+    "version": "2.14.1",
     "url": "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/void",
     "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "pre_install": [
-        " Invoke-WebRequest -Uri http://ftp.vector.co.jp/71/23/2526/a5m2_2.14.0_x64.zip -OutFile $dir\\a5m2.zip ",
+        " Invoke-WebRequest -Uri http://ftp.vector.co.jp/71/44/2526/a5m2_2.14.1_x64.zip -OutFile $dir\\a5m2.zip ",
         " Expand-Archive -Path $dir\\a5m2.zip -DestinationPath $dir "
     ],
     "bin": "A5M2.exe",
