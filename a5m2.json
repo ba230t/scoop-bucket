@@ -1,7 +1,7 @@
 {
     "homepage": "https://a5m2.mmatsubara.com/",
     "discription": "",
-    "version": "2.14.1",
+    "version": "2.14.3",
     "url": "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/void",
     "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
     "pre_install": [
