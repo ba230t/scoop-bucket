@@ -6,12 +6,5 @@
     "bin": "Bz64.exe",
     "shortcuts": [
         ["Bz64.exe", "BzEditor"]
-    ],
-    "checkver": {
-        "url": "https://gitlab.com/devill.tamachan/binaryeditorbz/-/releases",
-        "re": "([\\d.]+\.[\\d.]+\.[\\d.]+\.[\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "http://ebstudio.info/download/KWICFinder/xd2tx$version.zip"
-    }
+    ]
 }
