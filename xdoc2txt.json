@@ -5,7 +5,7 @@
     "version": "2.19",
     "checkver": {
         "url": "http://ebstudio.info/home/xdoc2txt.html",
-        "re": "/download/KWICFinder/xdtx([^ ]+)\.zip"
+        "re": "/download/KWICFinder/xdtx([^ ]+)\\.zip"
     },
     "autoupdate": {
         "url": "http://ebstudio.info/download/KWICFinder/xd2tx$version.zip"
