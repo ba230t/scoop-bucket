@@ -8,7 +8,7 @@
     "version": "19.1.0",
     "checkver": {
         "url": "https://jp.emeditor.com/download/",
-        "re": "http://files.emeditor.com/emed64_([\\d.]+.[\\d.]+.[\\d.]+)_portable.zip"
+        "re": "最新版をダウンロード： v([\\d.]+.[\\d.]+.[\\d.]+)"
     },
     "autoupdate": {
         "url": "http://files.emeditor.com/emed64_$version_portable.zip"
