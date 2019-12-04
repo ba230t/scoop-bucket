@@ -5,10 +5,10 @@
     "version": "2.19",
     "checkver": {
         "url": "http://ebstudio.info/home/xdoc2txt.html",
-        "re": "/download/KWICFinder/.*xdoc2txt ([\\d.]+)"
+        "re": "/download/KWICFinder/xdtx([^ ]+)\.zip"
     },
     "autoupdate": {
-        "url": "http://ebstudio.info/download/KWICFinder/xd2tx$cleanVersion.zip"
+        "url": "http://ebstudio.info/download/KWICFinder/xd2tx$version.zip"
     },
     "bin": "command/xdoc2txt.exe"
 }
