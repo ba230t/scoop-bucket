@@ -5,7 +5,7 @@
     "hash": "8a549d04c95f2cedce9893c8dccfd9aeba0758d935feedd6749890aa835268af",
     "bin": [
         "q-AMD64-Windows.exe",
-        "q.exe"
+        ["q-AMD64-Windows.exe", "q"]
     ],
     "checkver": "github",
     "autoupdate": {
