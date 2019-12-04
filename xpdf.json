@@ -1,10 +1,10 @@
 {
-    "version": "4.01.01",
+    "version": "4.02",
     "license": "",
-    "url": "https://xpdfreader-dl.s3.amazonaws.com/xpdf-tools-win-4.01.01.zip",
+    "url": "https://xpdfreader-dl.s3.amazonaws.com/xpdf-tools-win-4.02.zip",
     "homepage": "http://www.xpdfreader.com",
-    "hash": "87f526b2fb4f55c73be5c2443184704dce4efa77ba864b7f8ff2bcd4467f18f9",
-    "extract_dir": "xpdf-tools-win-4.01.01",
+    "hash": "b39a8e3f5f8f981328c926c6bcb3f3b11cc007c826719f6e10e3eb628e0a6355",
+    "extract_dir": "xpdf-tools-win-4.02",
     "architecture": {
         "64bit": {
             "bin": [
