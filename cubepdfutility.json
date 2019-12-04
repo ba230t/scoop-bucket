@@ -1,14 +1,14 @@
 {
-    "version": "0.5.4",
+    "version": "0.5.5",
     "homepage": "https://www.cube-soft.jp/cubepdfutility",
     "architecture": {
         "64bit": {
-            "url": "https://www.cube-soft.jp/archive/cubepdf-utility-0.5.4b-x64.exe",
-            "hash": "26c42ef22e1e36e15367a9c8453fec7c3c9a2b642cbc269b9718b72b190f67a7"
+            "url": "https://www.cube-soft.jp/archive/cubepdf-utility-0.5.5b-x64.exe",
+            "hash": "c55a4bf4a50e3e503d5dd66d60f31afc90325fc6211c72126613ab2be88785c1"
         },
         "32bit": {
-            "url": "https://www.cube-soft.jp/archive/cubepdf-utility-0.5.4b.exe",
-            "hash": "8faca027c35d6201f7ceb15dc02e5704efa35e8ab36dc4f6a596348d0a7ca85c"
+            "url": "https://www.cube-soft.jp/archive/cubepdf-utility-0.5.5b.exe",
+            "hash": "2ca918e1d57b658f8af5673daca10836c7d89d3452897aff40d57aed1258cb67"
         }
     },
     "installer": {
