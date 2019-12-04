@@ -1,11 +1,14 @@
 {
     "homepage": "https://github.com/harelba/q",
-    "version": "1.7.1",
-    "url": "https://github.com/harelba/q/releases/download/1.7.1/setup-q-1.7.1.exe#/dl.7z",
-    "hash": "56a45985a57dde4ecc706f4ba209425f7d9fc86490a3e09135459dfaededb260",
-    "bin": "q.exe",
+    "version": "2.0.6",
+    "url": "https://github.com/harelba/q/releases/download/2.0.6/q-AMD64-Windows-installer.exe#/dl.7z",
+    "hash": "8a549d04c95f2cedce9893c8dccfd9aeba0758d935feedd6749890aa835268af",
+    "bin": [
+        "q-AMD64-Windows.exe",
+        "q.exe"
+    ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/harelba/q/releases/download/$version/setup-q-$version.exe#/dl.7z"
+        "url": "https://github.com/harelba/q/releases/download/$version/q-AMD64-Windows-installer.exe#/dl.7z"
     }
 }
