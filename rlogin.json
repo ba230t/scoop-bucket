@@ -1,0 +1,26 @@
+{
+    "homepage": "http://nanno.dip.jp/softlib/man/rlogin/",
+    "url": "http://nanno.dip.jp/softlib/rlogin/2.24.6/rlogin_x64.zip",
+    "version": "2.24.6",
+    "hash": "f274be974dda4e3583c4b4ef948c82e98a17c58ca1ef3d214f35c83bf5f60926",
+    "persist": "RLogin.ini",
+    "bin": "RLogin.exe",
+    "shortcuts": [
+        [
+            "RLogin.exe",
+            "RLogin"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\RLogin.ini\")) {",
+        "    New-Item -Force -Path \"$dir\" -Name 'RLogin.ini' -Value '' | Out-Null",
+        "}"
+    ],
+    "checkver": {
+        "url": "http://nanno.dip.jp/softlib/man/rlogin/",
+        "re": "\\(([\\d.]+.[\\d.]+.[\\d.]+)\\)"
+    },
+    "autoupdate": {
+        "url": "http://nanno.dip.jp/softlib/rlogin/$version/rlogin_x64.zip"
+    }
+}
