@@ -34,11 +34,11 @@
         ]
     ],
     "pre_install": [
-        "if(!(test-path \"$dir\\eeUseIni.ini\"))  { Add-Content \"$dir\\eeUseIni.ini\" \"\" }",
-        "if(!(test-path \"$dir\\eeCommon.ini\"))  { Add-Content \"$dir\\eeCommon.ini\" \"\" }",
-        "if(!(test-path \"$dir\\eeConfig.ini\"))  { Add-Content \"$dir\\eeConfig.ini\" \"\" }",
-        "if(!(test-path \"$dir\\eePlugins.ini\")) { Add-Content \"$dir\\eePlugins.ini\" \"\" }",
-        "if(!(test-path \"$dir\\eeLM.ini\"))      { Add-Content \"$dir\\eeLM.ini\" \"\" }"
+        "if(!(test-path \"$persist_dir\\eeUseIni.ini\"))  { Add-Content \"$dir\\eeUseIni.ini\" \"\" }",
+        "if(!(test-path \"$persist_dir\\eeCommon.ini\"))  { Add-Content \"$dir\\eeCommon.ini\" \"\" }",
+        "if(!(test-path \"$persist_dir\\eeConfig.ini\"))  { Add-Content \"$dir\\eeConfig.ini\" \"\" }",
+        "if(!(test-path \"$persist_dir\\eePlugins.ini\")) { Add-Content \"$dir\\eePlugins.ini\" \"\" }",
+        "if(!(test-path \"$persist_dir\\eeLM.ini\"))      { Add-Content \"$dir\\eeLM.ini\" \"\" }"
     ],
     "post_install": [
         "if(Test-Path(\"$dir\\emeditor-install-context.reg\")) {",
