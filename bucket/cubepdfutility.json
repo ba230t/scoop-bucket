@@ -4,11 +4,11 @@
     "architecture": {
         "64bit": {
             "url": "https://www.cube-soft.jp/archive/cubepdf-utility-0.5.5b-x64.exe",
-            "hash": "c55a4bf4a50e3e503d5dd66d60f31afc90325fc6211c72126613ab2be88785c1"
+            "hash": "3b0891b206825aee2b741c0ed3a4071d75f523f1f6eedde27d6893003f0ea1eb"
         },
         "32bit": {
             "url": "https://www.cube-soft.jp/archive/cubepdf-utility-0.5.5b.exe",
-            "hash": "2ca918e1d57b658f8af5673daca10836c7d89d3452897aff40d57aed1258cb67"
+            "hash": ""
         }
     },
     "installer": {
