@@ -1,0 +1,7 @@
+{
+    "homepage": "http://qttabbar-ja.wikidot.com/",
+    "version": "1038",
+    "url": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1038.zip",
+    "hash": "",
+    "uninstaller": {"file": "QTTabBar.exe", "args": "/qu"}
+}
