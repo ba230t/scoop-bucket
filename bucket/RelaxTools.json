@@ -1,10 +1,9 @@
 {
     "homepage": "https://github.com/RelaxTools/RelaxTools-Addin",
-    "description": "•Ï‘ÔƒAƒhƒCƒ“",
-    "version": "4.25.2",
-    "url": "https://github.com/RelaxTools/RelaxTools-Addin/archive/4.25.2.zip",
-    "hash": "7e8e5fd1ecab5391e8eaba1b04173eff45b2d3812a5d9a24d5a9434000ed2243",
-    "extract_dir": "RelaxTools-Addin-4.25.2",
+    "version": "4.25.4",
+    "url": "https://github.com/RelaxTools/RelaxTools-Addin/archive/4.25.4.zip",
+    "hash": "",
+    "extract_dir": "RelaxTools-Addin-4.25.4",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/RelaxTools/RelaxTools-Addin/archive/$version.zip",

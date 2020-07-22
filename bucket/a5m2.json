@@ -1,7 +1,7 @@
 {
     "homepage": "https://a5m2.mmatsubara.com/",
     "version": "2.14.5",
-    "url": "http://dforest.watch.impress.co.jp/library/a/a5sqlmk2/11233/a5m2_2.14.5_x64.zip",
+    "url": "https://dforest.watch.impress.co.jp/library/a/a5sqlmk2/11233/a5m2_2.14.5_x64.zip",
     "hash": "cb90e2de6ac84eca615670899444a02f441635f44cac50a7dbc03d988623fdd4",
     "bin": "A5M2.exe",
     "persist": "Portable",
@@ -13,9 +13,9 @@
     ],
     "checkver": {
         "url": "https://forest.watch.impress.co.jp/library/software/a5sqlmk2/",
-        "re": "v(\\d+\\.\\d+\\.\\d+)"
+        "re": "<dd>v(\\d+\\.\\d+\\.\\d+)"
     },
     "autoupdate": {
-        "url": "http://dforest.watch.impress.co.jp/library/a/a5sqlmk2/11233/a5m2_$version_x64.zip"
+        "url": "https://dforest.watch.impress.co.jp/library/a/a5sqlmk2/11233/a5m2_$version_x64.zip"
     }
 }
