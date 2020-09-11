@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/harelba/q",
-    "version": "2.0.11",
-    "url": "https://github.com/harelba/q/releases/download/2.0.11/q-AMD64-Windows-installer.exe#/dl.7z",
-    "hash": "54edeb038e98c3b72fbff0326189db9be2a62532ed1cb42fc981ab539dcd6429",
+    "version": "2.0.16",
+    "url": "https://github.com/harelba/q/releases/download/2.0.16/q-AMD64-Windows-installer.exe#/dl.7z",
+    "hash": "f05074114cb4b8221d2652ea72d299e4e4a0536bc4ab940e542cc3ee254a0f23",
     "bin": "q.exe",
     "checkver": "github",
     "autoupdate": {
