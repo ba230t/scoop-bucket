@@ -1,8 +1,8 @@
 {
     "homepage": "http://nanno.dip.jp/softlib/man/rlogin/",
-    "url": "http://nanno.dip.jp/softlib/rlogin/2.25.4/rlogin_x64.zip",
-    "version": "2.25.4",
-    "hash": "1d7e0ddb831476eab39418f08889f6b8f934c87ba7e080ab03803c1fe388e0ea",
+    "url": "http://nanno.dip.jp/softlib/rlogin/2.25.5/rlogin_x64.zip",
+    "version": "2.25.5",
+    "hash": "0fb302f49547af3be548d96a49c146ad68fa34e64e0b9f0d1e7ca3aa2c042185",
     "persist": "RLogin.ini",
     "bin": "RLogin.exe",
     "shortcuts": [
