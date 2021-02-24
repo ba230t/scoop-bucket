@@ -1,11 +1,11 @@
 {
     "homepage": "https://jp.emeditor.com/",
     "url": [
-        "http://files.emeditor.com/emed64_20.5.908_portable.zip",
+        "http://files.emeditor.com/emed64_20.5.909_portable.zip",
         "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/emeditor-install-context.reg",
         "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/emeditor-uninstall-context.reg"
     ],
-    "version": "20.5.908",
+    "version": "20.5.909",
     "checkver": {
         "url": "https://support.emeditor.com/ja/downloads",
         "re": "v([\\d.]+.[\\d.]+.[\\d.]+)"
@@ -14,7 +14,7 @@
         "url": "http://files.emeditor.com/emed64_$version_portable.zip"
     },
     "hash": [
-        "a9fb10ce8d24be6cbccb28d23900e4a0ce1d9b384428320f894ec395b63efa72",
+        "6c51df3c5962b2f5b73bba2f5d1b76a6a13692da7e81bbef9f2cf74e9bb1764d",
         "a3892f94b164d4ecc6bfcf136685d5cf70d067d9d16ee54211f1067ab5b8c3c8",
         "17cfbc493dfe7fe75db28fa0c077fe21768ae5e711db8ed8d796f7c1f0694b01"
     ],
