@@ -1,12 +1,12 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\*\shell]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell]
 @="openas"
-[-HKEY_CLASSES_ROOT\*\shell\Edit]
-[-HKEY_CLASSES_ROOT\*\shell\EmEditorÇ≈äJÇ≠]
-[HKEY_CLASSES_ROOT\Unknown\shell]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Edit]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\EmEditorÇ≈äJÇ≠]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Unknown\shell]
 @="openas"
-[-HKEY_CLASSES_ROOT\Unknown\shell\Edit]
-[-HKEY_CLASSES_ROOT\Directory\shell\EmEditorÇ≈åüçı]
-[-HKEY_CLASSES_ROOT\Directory\Background\shell\EmEditorÇ≈åüçı]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Unknown\shell\Edit]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\EmEditorÇ≈åüçı]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\EmEditorÇ≈åüçı]
 
