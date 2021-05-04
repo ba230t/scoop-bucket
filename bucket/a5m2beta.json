@@ -4,7 +4,7 @@
         "url": "https://a5m2.mmatsubara.com/beta/",
         "re": "urchinTracker\\('/beta/a5m2_(.*)_x86.zip'\\);"
     },
-    "version": "2.16.0_beta34",
+    "version": "2.16.0_beta35",
     "bin": "A5M2.exe",
     "persist": "Portable",
     "shortcuts": [
@@ -15,12 +15,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://a5m2.mmatsubara.com/beta/a5m2_2.16.0_beta34_x64.zip",
-            "hash": "3d56a2d72e02a3007410cdb2db178959b4f4182ade7b29bb38cf7127fb2f2e59"
+            "url": "https://a5m2.mmatsubara.com/beta/a5m2_2.16.0_beta35_x64.zip",
+            "hash": "8d302cbb4b1bf4a9f8a8c28503fe3de12a03b4fe7cf99ceb40013494329d10d0"
         },
         "32bit": {
-            "url": "https://a5m2.mmatsubara.com/beta/a5m2_2.16.0_beta34_x86.zip",
-            "hash": "20a0634eba5d905119e36e82505264dcefa66e8693c6597f3b84990e0e4d303e"
+            "url": "https://a5m2.mmatsubara.com/beta/a5m2_2.16.0_beta35_x86.zip",
+            "hash": "ea970c5ade1277654d16272168c474a38bd84d20ee74f0b30e1a0b7ee704ca9e"
         }
     },
     "autoupdate": {
