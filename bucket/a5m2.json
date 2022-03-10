@@ -1,8 +1,8 @@
 {
     "homepage": "https://a5m2.mmatsubara.com/",
-    "version": "2.17.0",
-    "url": "https://dforest.watch.impress.co.jp/library/a/a5sqlmk2/11233/a5m2_2.17.0_x64.zip",
-    "hash": "f14c9c6b6b254255a8a03ea01e6eb93ede1f65b0eadb62aab7603068c07ddbb8",
+    "version": "2.17.1",
+    "url": "https://dforest.watch.impress.co.jp/library/a/a5sqlmk2/11233/a5m2_2.17.1_x64.zip",
+    "hash": "d653f330298e6145fa4d10560da4e92c3f61ee30863d166b89189f7b4b79b2e4",
     "bin": "A5M2.exe",
     "persist": "Portable",
     "shortcuts": [
