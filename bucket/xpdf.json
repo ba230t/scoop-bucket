@@ -38,7 +38,7 @@
         "re": "Current version: ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://xpdfreader-dl.s3.amazonaws.com/xpdf-tools-win-$version.zip",
+        "url": "https://dl.xpdfreader.com/xpdf-tools-win-$version.zip",
         "extract_dir": "xpdf-tools-win-$version"
     }
 }
