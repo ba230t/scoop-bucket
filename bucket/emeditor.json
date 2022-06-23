@@ -11,7 +11,7 @@
         "re": "v([\\d.]+.[\\d.]+.[\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://files.emeditor.com/emed64_$version_portable.zip"
+        "url": "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
     },
     "hash": [
         "772c6f55f65081355e7bc9b453fd0904b019e2e5af87e1b7275ac8aafd22683f",
