@@ -1,14 +1,14 @@
 {
     "home": "http://www.h2database.com",
-    "version": "2019-10-14",
-    "url": "http://www.h2database.com/h2-2019-10-14.zip",
-    "hash": "a72f319f1b5347a6ee9eba42718e69e2ae41e2f846b3475f9292f1e3beb59b01",
+    "version": "2.1.214",
+    "url": "https://github.com/h2database/h2database/releases/download/version-2.1.214/h2-2022-06-13.zip",
+    "hash": "34c5ffe2d27ceeff217e5b71aefe964fb3fb6c0e6891551bec4e599df5e78c9b",
     "checkver": {
         "url": "http://www.h2database.com/html/main.html",
-        "re": "Version [\\d.]+ \\(([\\d-]+)\\)"
+        "re": "Version (?<version>[\\d.]+) \\((?<dateVersion>[\\d-]+)\\)"
     },
     "autoupdate": {
-        "url": "http://www.h2database.com/h2-$version.zip"
+        "url": "https://github.com/h2database/h2database/releases/download/version-$matchVersion/h2-$matchDateversion.zip"
     },
     "extract_dir": "h2",
     "shortcuts": [

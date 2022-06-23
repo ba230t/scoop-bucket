@@ -1,17 +1,21 @@
 {
     "homepage": "https://github.com/stnkl/EverythingToolbar",
-    "version": "0.6.1",
-    "url": "https://github.com/stnkl/EverythingToolbar/releases/download/0.6.1/EverythingToolbar-0.6.1.zip",
+    "version": "0.7.4",
+    "url": "https://github.com/stnkl/EverythingToolbar/archive/refs/tags/0.7.4.zip",
     "notes": "Enable EverythingToolbar via the context menu of the taskbar.",
-    "hash": "18401ecf75dfb4a1ba0bbb8ac69c78c60c2d482d51b41cf87ae577918632a8b8",
+    "hash": "245a4d6ad850c6721bbe5835013c8e077054cbb7a8a845f06b72e9d13cb163ca",
     "depends": "extras/everything",
     "checkver": "github",
-    "pre_install": [
-        "if (-not (is_admin)) { error 'Administrator privileges are needed for installation'; break }"
-    ],
-    "installer": {"file": "install.cmd", "keep": "true"},
-    "uninstaller": {"file": "uninstall.cmd", "keep": "true"},
+    "pre_install": "if (-not (is_admin)) { error 'Administrator privileges are needed for installation'; break }",
+    "installer": {
+        "file": "install.cmd",
+        "keep": "true"
+    },
+    "uninstaller": {
+        "file": "uninstall.cmd",
+        "keep": "true"
+    },
     "autoupdate": {
-        "url": "https://github.com/stnkl/EverythingToolbar/releases/download/$version/EverythingToolbar-$version.zip"
+        "url": "https://github.com/stnkl/EverythingToolbar/archive/refs/tags/$version.zip"
     }
 }
