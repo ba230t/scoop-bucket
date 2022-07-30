@@ -5,12 +5,12 @@ on:
 name: Excavator
 jobs:
   excavate:
-    name: Excavate
-    runs-on: ubuntu-latest
+    name: Excavator
+    runs-on: windows-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Shovel Bucket Minion
-      uses: shovel-org/GithubActions@1.5.0.6
+    - uses: actions/checkout@main
+    - name: Excavator
+      uses: shovel-org/GithubActions@main
       env:
         GITH_EMAIL: ba230t@yahoo.co.jp
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
