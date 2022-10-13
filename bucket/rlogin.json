@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/kmiya-culti/RLogin",
-    "version": "2.27.3",
-    "url": "https://github.com/kmiya-culti/RLogin/archive/refs/tags/2.27.3.zip",
-    "hash": "1b3ae97a650eb92583b1d2541902f10d74f1d0fe7f2df24a9e1da1c887b4e204",
+    "version": "2.27.4",
+    "url": "https://github.com/kmiya-culti/RLogin/archive/refs/tags/2.27.4.zip",
+    "hash": "d07c5405d811a47ea6b0badc44238d9a3846b48dfe6aeff6eefcf9ae7eb450d5",
     "persist": "RLogin.ini",
     "bin": "RLogin.exe",
     "shortcuts": [
