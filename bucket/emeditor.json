@@ -1,11 +1,11 @@
 {
     "homepage": "https://jp.emeditor.com/",
     "url": [
-        "https://emeditor.blob.core.windows.net/emed64_22.0.910_portable.zip",
+        "https://emeditor.blob.core.windows.net/emed64_22.0.911_portable.zip",
         "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/emeditor-install-context.reg",
         "https://raw.githubusercontent.com/ba230t/scoop-bucket/master/scripts/emeditor-uninstall-context.reg"
     ],
-    "version": "22.0.910",
+    "version": "22.0.911",
     "checkver": {
         "url": "https://support.emeditor.com/ja/downloads",
         "re": "v([\\d.]+.[\\d.]+.[\\d.]+)"
@@ -14,7 +14,7 @@
         "url": "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
     },
     "hash": [
-        "18e8ff21e8c49266722511ae602853518a9bb69a0d82452b4f774ce2ac2f238f",
+        "6fd1a735d01d151afe0971ae0cc2739c7bc7bc8de7c397f547a5f72d42b9e60e",
         "f6fe1f745ec7f1b1be59c89cb112b5d85388b346babb58e4f242107167ab9045",
         "3917570e98ad30e7c9325b97356cc46fb28ab67d734aaf77c206b732f75c6b8a"
     ],
