@@ -12,6 +12,6 @@ jobs:
     - name: Excavator
       uses: shovel-org/GithubActions@main
       env:
-        GITH_EMAIL: ba230t@yahoo.co.jp
+        GITH_EMAIL: ${{ github.repository_owner }}@users.noreply.github.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
