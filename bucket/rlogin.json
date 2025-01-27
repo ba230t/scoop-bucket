@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/kmiya-culti/RLogin",
-    "version": "2.30.0",
-    "url": "http://nanno.bf1.jp/softlib/rlogin/2.30.0/rlogin_x64.zip",
-    "hash": "4232f0a205fb975f55d6ed10722d9acd24eb9aeebacba4f78f6b324126c809ea",
+    "version": "2.30.1",
+    "url": "http://nanno.bf1.jp/softlib/rlogin/2.30.1/rlogin_x64.zip",
+    "hash": "86530dc0abe5ebe31688179a4860e6903f63a21ed2902903f0e1ac28b2405a4d",
     "persist": "RLogin.ini",
     "bin": "RLogin.exe",
     "shortcuts": [
