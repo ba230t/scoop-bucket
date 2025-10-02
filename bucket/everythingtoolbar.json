@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/stnkl/EverythingToolbar",
-    "version": "2.0.4",
-    "url": "https://github.com/stnkl/EverythingToolbar/archive/refs/tags/2.0.4.zip",
+    "version": "2.1.0",
+    "url": "https://github.com/stnkl/EverythingToolbar/archive/refs/tags/2.1.0.zip",
     "notes": "Enable EverythingToolbar via the context menu of the taskbar.",
-    "hash": "72ede0ba1b5f82456e94348ada34bf20bbda9f2847a4762508dbdfdc92ff6744",
+    "hash": "2f97e73545233210ed8fea7a8447a389b3a5433609dad03e055f08f6115402b2",
     "depends": "extras/everything",
     "checkver": "github",
     "pre_install": "if (-not (is_admin)) { error 'Administrator privileges are needed for installation'; break }",
